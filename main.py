@@ -181,7 +181,7 @@ class Game:
         )
 
         self.win.blit(
-            self.small_font.render(f"High : {self.high_score}", True, WHITE),
+            self.small_font.render(f"High Score : {self.high_score}", True, WHITE),
             (20, 55)
         )
 
